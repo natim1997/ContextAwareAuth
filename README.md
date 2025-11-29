@@ -7,18 +7,18 @@ Created as a final assignment for the "User Interface Security & Privacy" course
 The app simulates a secure vault that only unlocks when specific **physical** and **environmental** conditions are met simultaneously. It utilizes device sensors and system states to verify the user's context before allowing access.
 
 ##  The 5 Security Conditions
-[cite_start]To enable the login button, the user must satisfy **ALL** the following conditions[cite: 10, 20, 27]:
+[cite_start]To enable the login button, the user must satisfy **ALL** the following conditions:
 
-1.  [cite_start]** Orientation:** Phone must be held **Upside Down** (Bat Mode)[cite: 36].
-2.  [cite_start]** Connectivity:** **Airplane Mode** must be turned **ON**[cite: 43].
-3.  [cite_start]** Battery Status:** Battery percentage must be an **Even Number** (e.g., 50%, 82%)[cite: 28].
-4.  [cite_start]** Sound Environment:** Device volume must be set to **0 (Silent Mode)**[cite: 42].
-5.  [cite_start]** Display Mode:** Device must be in **Dark Mode**[cite: 31].
+1.  [cite_start]** Orientation:** Phone must be held **Upside Down** (Bat Mode).
+2.  [cite_start]** Connectivity:** **Airplane Mode** must be turned **ON**.
+3.  [cite_start]** Battery Status:** Battery percentage must be an **Even Number** (e.g., 50%, 82%).
+4.  [cite_start]** Sound Environment:** Device volume must be set to **0 (Silent Mode)**.
+5.  [cite_start]** Display Mode:** Device must be in **Dark Mode**.
 
 > **Visual Feedback:** The app provides real-time feedback (Red ❌ / Green ✅) for each condition to assist in testing and debugging.
 
 ##  Dynamic Password Logic
-[cite_start]Once all physical conditions are met, the user must enter a dynamic password based on the current battery level[cite: 50].
+[cite_start]Once all physical conditions are met, the user must enter a dynamic password based on the current battery level.
 
 **The Algorithm:** `[Battery Level] + [Sum of Digits] + [Reversed Level]`
 
