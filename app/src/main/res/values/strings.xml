@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Conditions</string>
+    <string name="app_title">Secure Vault</string>
+    <string name="enter_password">Enter Password</string>
+
+    <string name="cond_1_upside_down">1. Phone Upside Down</string>
+    <string name="cond_2_airplane">2. Airplane Mode On</string>
+    <string name="cond_3_battery">3. Battery % is Even</string>
+    <string name="cond_4_north">4. Volume is 0 (Silent)</string>
+    <string name="cond_5_sensor">5. Dark Mode Active</string>
+
+    <string name="btn_unlock">UNLOCK VAULT</string>
+</resources>
